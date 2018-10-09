@@ -1,0 +1,700 @@
+2018-09-20 16:01:47,850 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.5.Final
+2018-09-20 16:01:48,768 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.2.Final
+2018-09-20 16:01:48,785 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-09-20 16:01:49,023 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) starting
+2018-09-20 16:01:49,024 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/bernard/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/90/lycfmzn106xgbc7twpsv10xr0000gn/T/
+	java.library.path = /Users/bernard/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_144-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_144
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.144-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final
+	jboss.host.name = bernard
+	jboss.modules.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = bernard
+	jboss.qualified.host.name = bernard.local
+	jboss.server.base.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone
+	jboss.server.config.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log
+	jboss.server.name = bernard
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.14
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/jboss-modules.jar -mp /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final -Djboss.server.base.dir=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = CA
+	user.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/bin
+	user.home = /Users/bernard
+	user.language = fr
+	user.name = bernard
+	user.timezone = America/Montreal
+2018-09-20 16:01:49,026 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/logging.properties 
+2018-09-20 16:01:51,028 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-09-20 16:01:51,071 INFO  [org.wildfly.security] (ServerService Thread Pool -- 14) ELY00001: WildFly Elytron version 1.3.3.Final
+2018-09-20 16:01:51,088 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 31) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-09-20 16:01:51,162 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-09-20 16:01:51,210 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.3.Final
+2018-09-20 16:01:51,219 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.3.Final
+2018-09-20 16:01:51,305 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.7.Final
+2018-09-20 16:01:51,322 INFO  [org.jboss.as.ee] (ServerService Thread Pool -- 41) WFLYEE0118: The system property 'ee8.preview.mode' is set to 'true'. For provided EE 8 APIs where the EE 8 version of the API differs from what is supported in EE 7, the EE 8 variant of the API will be used. Support for this setting will be removed once all EE 8 APIs are provided and certified.
+2018-09-20 16:01:51,339 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-09-20 16:01:51,345 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-09-20 16:01:51,352 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 46) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-09-20 16:01:51,386 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.9.Final)
+2018-09-20 16:01:51,389 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-09-20 16:01:51,398 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-09-20 16:01:51,407 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+2018-09-20 16:01:51,433 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2018-09-20 16:01:51,432 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-09-20 16:01:51,477 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 47) WFLYRS0016: RESTEasy version 3.5.1.Final
+2018-09-20 16:01:51,593 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 60) WFLYSEC0002: Activating Security Subsystem
+2018-09-20 16:01:51,601 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-09-20 16:01:51,656 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+2018-09-20 16:01:51,670 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-09-20 16:01:51,793 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.9.Final starting
+2018-09-20 16:01:51,816 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-09-20 16:01:51,815 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-09-20 16:01:51,869 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path '/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-09-20 16:01:52,016 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-09-20 16:01:52,040 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2018-09-20 16:01:52,113 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-09-20 16:01:52,259 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: EJB subsystem suspension complete
+2018-09-20 16:01:52,945 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-09-20 16:01:52,962 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-09-20 16:01:53,008 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/deployments
+2018-09-20 16:01:53,011 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "postgresql-42.2.4.jar" (runtime-name: "jdbc")
+2018-09-20 16:01:53,265 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-09-20 16:01:53,460 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.2.1.Final (Apache CXF 3.2.4.jbossorg-1) 
+2018-09-20 16:01:54,298 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2018-09-20 16:01:54,311 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = jdbc
+2018-09-20 16:01:54,372 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/jdbc/postgres/fusion/api]
+2018-09-20 16:01:55,374 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Gaina' 9.2.4.Final
+2018-09-20 16:01:55,703 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-09-20 16:01:55,819 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "postgresql-42.2.4.jar" (runtime-name : "jdbc")
+2018-09-20 16:01:55,892 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-09-20 16:01:55,896 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-09-20 16:01:55,896 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-09-20 16:01:55,896 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) started in 9008ms - Started 364 of 556 services (311 services are lazy, passive or on-demand)
+2018-09-20 16:01:56,475 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "rest-mybatis.war" (runtime-name: "rest-mybatis.war")
+2018-09-20 16:01:57,253 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment rest-mybatis.war
+2018-09-20 16:01:57,375 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 6.0.10.Final
+2018-09-20 16:01:57,677 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2018-09-20 16:01:57,706 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 3.0.4 (Final)
+2018-09-20 16:01:57,775 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = rest-mybatis.war_org.postgresql.Driver_42_2
+2018-09-20 16:01:58,066 INFO  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-09-20 16:01:58,069 INFO  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.mybatis.cdi.MybatisExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-09-20 16:01:58,110 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-09-20 16:01:58,174 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-5) MyBatis CDI Module - Found class with @Mapper-annotation: EtudiantMapper
+2018-09-20 16:01:58,466 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-5) MyBatis CDI Module - SqlSessionFactory producer MyBatisSqlSessionFactoryProducer.produceFactory
+2018-09-20 16:01:58,554 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-5) MyBatis CDI Module - Activated
+2018-09-20 16:01:58,555 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-5) MyBatis CDI Module - Found a bean, which needs a Mapper interface ca.usherbrooke.gegi.server.dao.EtudiantMapper
+2018-09-20 16:01:58,555 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-5) MyBatis CDI Module - Managed Mapper dependency: ca.usherbrooke.gegi.server.dao.EtudiantMapper, ca.usherbrooke.gegi.server.dao.EtudiantMapper
+2018-09-20 16:01:58,559 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-5) MyBatis CDI Module - Managed SqlSession: org.apache.ibatis.session.SqlSession, org.apache.ibatis.session.SqlSession
+2018-09-20 16:01:59,281 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ca.usherbrooke.gegi.server.cdi.RestApplicationPathConfig
+2018-09-20 16:01:59,336 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: '/rest-mybatis' for server 'default-server'
+2018-09-20 16:01:59,367 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "rest-mybatis.war" (runtime-name : "rest-mybatis.war")
+2018-09-20 16:02:06,106 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /rest-mybatis/api/etudiant: org.jboss.resteasy.spi.UnhandledException: org.apache.ibatis.binding.BindingException: Type interface ca.usherbrooke.gegi.server.dao.EtudiantMapper is not known to the MapperRegistry.
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:78)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:222)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:195)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:457)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:231)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:137)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:361)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:140)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:217)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.binding.BindingException: Type interface ca.usherbrooke.gegi.server.dao.EtudiantMapper is not known to the MapperRegistry.
+	at org.apache.ibatis.binding.MapperRegistry.getMapper(MapperRegistry.java:47)
+	at org.apache.ibatis.session.Configuration.getMapper(Configuration.java:745)
+	at org.apache.ibatis.session.SqlSessionManager.getMapper(SqlSessionManager.java:261)
+	at org.mybatis.cdi.SerializableMapperProxy.getMapper(SerializableMapperProxy.java:65)
+	at org.mybatis.cdi.SerializableMapperProxy.<init>(SerializableMapperProxy.java:50)
+	at org.mybatis.cdi.MyBatisBean.create(MyBatisBean.java:124)
+	at org.jboss.weld.contexts.unbound.DependentContextImpl.get(DependentContextImpl.java:70)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:700)
+	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:800)
+	at org.jboss.weld.injection.FieldInjectionPoint.inject(FieldInjectionPoint.java:92)
+	at org.jboss.weld.util.Beans.injectBoundFields(Beans.java:336)
+	at org.jboss.weld.util.Beans.injectFieldsAndInitializers(Beans.java:347)
+	at org.jboss.weld.injection.producer.ResourceInjector$1.proceed(ResourceInjector.java:69)
+	at org.jboss.weld.injection.InjectionContextImpl.run(InjectionContextImpl.java:48)
+	at org.jboss.weld.injection.producer.ResourceInjector.inject(ResourceInjector.java:71)
+	at org.jboss.weld.injection.producer.BasicInjectionTarget.inject(BasicInjectionTarget.java:117)
+	at org.jboss.resteasy.cdi.JaxrsInjectionTarget.inject(JaxrsInjectionTarget.java:44)
+	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:159)
+	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$CachingContextualInstanceStrategy.get(ContextualInstanceStrategy.java:177)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:102)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:131)
+	at ca.usherbrooke.gegi.server.rest.EtudiantService$Proxy$_$$_WeldClientProxy.sayHello(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:140)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:510)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:401)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:365)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:361)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:367)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:339)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:312)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:441)
+	... 50 more
+
+2018-09-20 16:04:02,321 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = rest-mybatis.war_org.postgresql.Driver_42_2
+2018-09-20 16:04:02,332 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0022: Unregistered web context: '/rest-mybatis' from server 'default-server'
+2018-09-20 16:04:02,380 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment rest-mybatis.war (runtime-name: rest-mybatis.war) in 77ms
+2018-09-20 16:04:02,401 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "rest-mybatis.war" (runtime-name: "rest-mybatis.war")
+2018-09-20 16:04:02,451 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+2018-09-20 16:04:02,454 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: EJB subsystem suspension complete
+2018-09-20 16:04:02,456 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-09-20 16:04:02,495 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-09-20 16:04:02,502 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:/jdbc/postgres/fusion/api]
+2018-09-20 16:04:02,514 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2018-09-20 16:04:02,522 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = jdbc
+2018-09-20 16:04:02,526 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-09-20 16:04:02,529 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2018-09-20 16:04:02,530 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-09-20 16:04:02,530 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-09-20 16:04:02,531 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment postgresql-42.2.4.jar (runtime-name: jdbc) in 68ms
+2018-09-20 16:04:02,531 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-09-20 16:04:02,534 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 2.0.9.Final stopping
+2018-09-20 16:04:02,547 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) stopped in 84ms
+2018-09-20 16:04:13,950 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.5.Final
+2018-09-20 16:04:14,552 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.2.Final
+2018-09-20 16:04:14,565 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-09-20 16:04:14,710 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) starting
+2018-09-20 16:04:14,711 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/bernard/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/90/lycfmzn106xgbc7twpsv10xr0000gn/T/
+	java.library.path = /Users/bernard/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_144-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_144
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.144-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final
+	jboss.host.name = bernard
+	jboss.modules.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = bernard
+	jboss.qualified.host.name = bernard.local
+	jboss.server.base.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone
+	jboss.server.config.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log
+	jboss.server.name = bernard
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.14
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/jboss-modules.jar -mp /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final -Djboss.server.base.dir=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = CA
+	user.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/bin
+	user.home = /Users/bernard
+	user.language = fr
+	user.name = bernard
+	user.timezone = America/Montreal
+2018-09-20 16:04:14,713 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/logging.properties 
+2018-09-20 16:04:16,280 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-09-20 16:04:16,297 INFO  [org.wildfly.security] (ServerService Thread Pool -- 8) ELY00001: WildFly Elytron version 1.3.3.Final
+2018-09-20 16:04:16,347 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 31) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-09-20 16:04:16,383 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-09-20 16:04:16,398 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.3.Final
+2018-09-20 16:04:16,404 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.3.Final
+2018-09-20 16:04:16,447 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.7.Final
+2018-09-20 16:04:16,462 INFO  [org.jboss.as.ee] (ServerService Thread Pool -- 41) WFLYEE0118: The system property 'ee8.preview.mode' is set to 'true'. For provided EE 8 APIs where the EE 8 version of the API differs from what is supported in EE 7, the EE 8 variant of the API will be used. Support for this setting will be removed once all EE 8 APIs are provided and certified.
+2018-09-20 16:04:16,465 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-09-20 16:04:16,497 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-09-20 16:04:16,499 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 46) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-09-20 16:04:16,567 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-09-20 16:04:16,566 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.9.Final)
+2018-09-20 16:04:16,604 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-09-20 16:04:16,604 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-09-20 16:04:16,605 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 47) WFLYRS0016: RESTEasy version 3.5.1.Final
+2018-09-20 16:04:16,622 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-09-20 16:04:16,629 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+2018-09-20 16:04:16,638 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 60) WFLYSEC0002: Activating Security Subsystem
+2018-09-20 16:04:16,640 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-09-20 16:04:16,641 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-09-20 16:04:16,642 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-09-20 16:04:16,650 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-09-20 16:04:16,687 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+2018-09-20 16:04:16,690 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.0.9.Final starting
+2018-09-20 16:04:16,749 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path '/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-09-20 16:04:16,758 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2018-09-20 16:04:16,760 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2018-09-20 16:04:16,886 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-09-20 16:04:17,188 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2018-09-20 16:04:17,468 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-09-20 16:04:17,482 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-09-20 16:04:17,489 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/deployments
+2018-09-20 16:04:17,495 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "postgresql-42.2.4.jar" (runtime-name: "jdbc")
+2018-09-20 16:04:17,610 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-09-20 16:04:17,732 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.2.1.Final (Apache CXF 3.2.4.jbossorg-1) 
+2018-09-20 16:04:18,393 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2018-09-20 16:04:18,402 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = jdbc
+2018-09-20 16:04:18,458 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/jdbc/postgres/fusion/api]
+2018-09-20 16:04:19,238 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Gaina' 9.2.4.Final
+2018-09-20 16:04:19,624 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-09-20 16:04:19,757 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "postgresql-42.2.4.jar" (runtime-name : "jdbc")
+2018-09-20 16:04:19,808 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-09-20 16:04:19,810 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-09-20 16:04:19,810 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-09-20 16:04:19,810 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) started in 6389ms - Started 364 of 556 services (311 services are lazy, passive or on-demand)
+2018-09-20 16:04:20,137 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "rest-mybatis.war" (runtime-name: "rest-mybatis.war")
+2018-09-20 16:04:21,092 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment rest-mybatis.war
+2018-09-20 16:04:21,188 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 6.0.10.Final
+2018-09-20 16:04:21,455 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2018-09-20 16:04:21,481 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 3.0.4 (Final)
+2018-09-20 16:04:21,544 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = rest-mybatis.war_org.postgresql.Driver_42_2
+2018-09-20 16:04:21,762 INFO  [org.jboss.weld.Event] (MSC service thread 1-6) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.mybatis.cdi.MybatisExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-09-20 16:04:21,775 INFO  [org.jboss.weld.Event] (MSC service thread 1-6) WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-09-20 16:04:21,812 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-09-20 16:04:21,886 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-6) MyBatis CDI Module - Found class with @Mapper-annotation: EtudiantMapper
+2018-09-20 16:04:22,095 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-6) MyBatis CDI Module - SqlSessionFactory producer MyBatisSqlSessionFactoryProducer.produceFactory
+2018-09-20 16:04:22,136 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-6) MyBatis CDI Module - Activated
+2018-09-20 16:04:22,137 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-6) MyBatis CDI Module - Found a bean, which needs a Mapper interface ca.usherbrooke.gegi.server.dao.EtudiantMapper
+2018-09-20 16:04:22,137 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-6) MyBatis CDI Module - Managed Mapper dependency: ca.usherbrooke.gegi.server.dao.EtudiantMapper, ca.usherbrooke.gegi.server.dao.EtudiantMapper
+2018-09-20 16:04:22,138 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-6) MyBatis CDI Module - Managed SqlSession: org.apache.ibatis.session.SqlSession, org.apache.ibatis.session.SqlSession
+2018-09-20 16:04:22,703 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 67) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ca.usherbrooke.gegi.server.cdi.RestApplicationPathConfig
+2018-09-20 16:04:22,754 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0021: Registered web context: '/rest-mybatis' for server 'default-server'
+2018-09-20 16:04:22,783 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "rest-mybatis.war" (runtime-name : "rest-mybatis.war")
+2018-09-20 16:04:28,168 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /rest-mybatis/api/etudiant: org.jboss.resteasy.spi.UnhandledException: org.apache.ibatis.binding.BindingException: Type interface ca.usherbrooke.gegi.server.dao.EtudiantMapper is not known to the MapperRegistry.
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:78)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:222)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:195)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:457)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:231)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:137)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:361)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:140)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:217)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.binding.BindingException: Type interface ca.usherbrooke.gegi.server.dao.EtudiantMapper is not known to the MapperRegistry.
+	at org.apache.ibatis.binding.MapperRegistry.getMapper(MapperRegistry.java:47)
+	at org.apache.ibatis.session.Configuration.getMapper(Configuration.java:745)
+	at org.apache.ibatis.session.SqlSessionManager.getMapper(SqlSessionManager.java:261)
+	at org.mybatis.cdi.SerializableMapperProxy.getMapper(SerializableMapperProxy.java:65)
+	at org.mybatis.cdi.SerializableMapperProxy.<init>(SerializableMapperProxy.java:50)
+	at org.mybatis.cdi.MyBatisBean.create(MyBatisBean.java:124)
+	at org.jboss.weld.contexts.unbound.DependentContextImpl.get(DependentContextImpl.java:70)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:700)
+	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:800)
+	at org.jboss.weld.injection.FieldInjectionPoint.inject(FieldInjectionPoint.java:92)
+	at org.jboss.weld.util.Beans.injectBoundFields(Beans.java:336)
+	at org.jboss.weld.util.Beans.injectFieldsAndInitializers(Beans.java:347)
+	at org.jboss.weld.injection.producer.ResourceInjector$1.proceed(ResourceInjector.java:69)
+	at org.jboss.weld.injection.InjectionContextImpl.run(InjectionContextImpl.java:48)
+	at org.jboss.weld.injection.producer.ResourceInjector.inject(ResourceInjector.java:71)
+	at org.jboss.weld.injection.producer.BasicInjectionTarget.inject(BasicInjectionTarget.java:117)
+	at org.jboss.resteasy.cdi.JaxrsInjectionTarget.inject(JaxrsInjectionTarget.java:44)
+	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:159)
+	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$CachingContextualInstanceStrategy.get(ContextualInstanceStrategy.java:177)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:102)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:131)
+	at ca.usherbrooke.gegi.server.rest.EtudiantService$Proxy$_$$_WeldClientProxy.sayHello(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:140)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:510)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:401)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:365)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:361)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:367)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:339)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:312)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:441)
+	... 50 more
+
+2018-09-20 16:05:40,778 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = rest-mybatis.war_org.postgresql.Driver_42_2
+2018-09-20 16:05:40,779 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0022: Unregistered web context: '/rest-mybatis' from server 'default-server'
+2018-09-20 16:05:40,845 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment rest-mybatis.war (runtime-name: rest-mybatis.war) in 74ms
+2018-09-20 16:05:40,871 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "rest-mybatis.war" (runtime-name: "rest-mybatis.war")
+2018-09-20 16:05:40,943 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2018-09-20 16:05:40,949 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: EJB subsystem suspension complete
+2018-09-20 16:05:40,958 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-09-20 16:05:40,977 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-09-20 16:05:40,984 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2018-09-20 16:05:40,986 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:/jdbc/postgres/fusion/api]
+2018-09-20 16:05:40,994 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = jdbc
+2018-09-20 16:05:41,011 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-09-20 16:05:41,012 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2018-09-20 16:05:41,013 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-09-20 16:05:41,013 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment postgresql-42.2.4.jar (runtime-name: jdbc) in 42ms
+2018-09-20 16:05:41,014 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-09-20 16:05:41,014 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-09-20 16:05:41,016 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 2.0.9.Final stopping
+2018-09-20 16:05:41,021 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) stopped in 51ms
+2018-09-20 16:09:07,028 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.5.Final
+2018-09-20 16:09:07,600 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.2.Final
+2018-09-20 16:09:07,610 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-09-20 16:09:07,731 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) starting
+2018-09-20 16:09:07,733 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/bernard/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/90/lycfmzn106xgbc7twpsv10xr0000gn/T/
+	java.library.path = /Users/bernard/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_144-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_144
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.144-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final
+	jboss.host.name = bernard
+	jboss.modules.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = bernard
+	jboss.qualified.host.name = bernard.local
+	jboss.server.base.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone
+	jboss.server.config.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log
+	jboss.server.name = bernard
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.14
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/jboss-modules.jar -mp /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final -Djboss.server.base.dir=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = CA
+	user.dir = /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/bin
+	user.home = /Users/bernard
+	user.language = fr
+	user.name = bernard
+	user.timezone = America/Montreal
+2018-09-20 16:09:07,734 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/logging.properties 
+2018-09-20 16:09:09,227 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-09-20 16:09:09,251 INFO  [org.wildfly.security] (ServerService Thread Pool -- 17) ELY00001: WildFly Elytron version 1.3.3.Final
+2018-09-20 16:09:09,277 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 31) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-09-20 16:09:09,317 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-09-20 16:09:09,331 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.3.Final
+2018-09-20 16:09:09,337 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.3.Final
+2018-09-20 16:09:09,385 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.7.Final
+2018-09-20 16:09:09,385 INFO  [org.jboss.as.ee] (ServerService Thread Pool -- 41) WFLYEE0118: The system property 'ee8.preview.mode' is set to 'true'. For provided EE 8 APIs where the EE 8 version of the API differs from what is supported in EE 7, the EE 8 variant of the API will be used. Support for this setting will be removed once all EE 8 APIs are provided and certified.
+2018-09-20 16:09:09,401 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-09-20 16:09:09,425 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-09-20 16:09:09,491 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 46) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-09-20 16:09:09,506 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.9.Final)
+2018-09-20 16:09:09,509 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-09-20 16:09:09,513 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 47) WFLYRS0016: RESTEasy version 3.5.1.Final
+2018-09-20 16:09:09,529 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-09-20 16:09:09,531 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-09-20 16:09:09,541 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-09-20 16:09:09,550 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+2018-09-20 16:09:09,563 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-09-20 16:09:09,563 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2018-09-20 16:09:09,584 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 60) WFLYSEC0002: Activating Security Subsystem
+2018-09-20 16:09:09,587 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-09-20 16:09:09,595 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-09-20 16:09:09,629 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.9.Final starting
+2018-09-20 16:09:09,640 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+2018-09-20 16:09:09,692 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path '/Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-09-20 16:09:09,701 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2018-09-20 16:09:09,705 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2018-09-20 16:09:09,814 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-09-20 16:09:10,072 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2018-09-20 16:09:10,442 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-09-20 16:09:10,447 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-09-20 16:09:10,453 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/bernard/Universite/git-intellij/wildfly/wildfly-13.0.0.Final/standalone/deployments
+2018-09-20 16:09:10,459 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "postgresql-42.2.4.jar" (runtime-name: "jdbc")
+2018-09-20 16:09:10,588 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-09-20 16:09:10,688 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.2.1.Final (Apache CXF 3.2.4.jbossorg-1) 
+2018-09-20 16:09:11,312 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2018-09-20 16:09:11,322 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = jdbc
+2018-09-20 16:09:11,385 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/jdbc/postgres/fusion/api]
+2018-09-20 16:09:11,948 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Gaina' 9.2.4.Final
+2018-09-20 16:09:12,248 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-09-20 16:09:12,394 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "postgresql-42.2.4.jar" (runtime-name : "jdbc")
+2018-09-20 16:09:12,464 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-09-20 16:09:12,466 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-09-20 16:09:12,466 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-09-20 16:09:12,466 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) started in 6120ms - Started 364 of 556 services (311 services are lazy, passive or on-demand)
+2018-09-20 16:09:12,965 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "rest-mybatis.war" (runtime-name: "rest-mybatis.war")
+2018-09-20 16:09:13,583 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment rest-mybatis.war
+2018-09-20 16:09:13,674 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 6.0.10.Final
+2018-09-20 16:09:13,864 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2018-09-20 16:09:13,882 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 3.0.4 (Final)
+2018-09-20 16:09:13,949 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = rest-mybatis.war_org.postgresql.Driver_42_2
+2018-09-20 16:09:14,112 INFO  [org.jboss.weld.Event] (MSC service thread 1-1) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.mybatis.cdi.MybatisExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-09-20 16:09:14,133 INFO  [org.jboss.weld.Event] (MSC service thread 1-1) WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-09-20 16:09:14,176 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-1) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-09-20 16:09:14,224 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-1) MyBatis CDI Module - Found class with @Mapper-annotation: EtudiantMapper
+2018-09-20 16:09:14,385 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-1) MyBatis CDI Module - SqlSessionFactory producer MyBatisSqlSessionFactoryProducer.produceFactory
+2018-09-20 16:09:14,440 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-1) MyBatis CDI Module - Activated
+2018-09-20 16:09:14,440 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-1) MyBatis CDI Module - Found a bean, which needs a Mapper interface ca.usherbrooke.gegi.server.dao.EtudiantMapper
+2018-09-20 16:09:14,440 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-1) MyBatis CDI Module - Managed Mapper dependency: ca.usherbrooke.gegi.server.dao.EtudiantMapper, ca.usherbrooke.gegi.server.dao.EtudiantMapper
+2018-09-20 16:09:14,442 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-1) MyBatis CDI Module - Managed SqlSession: org.apache.ibatis.session.SqlSession, org.apache.ibatis.session.SqlSession
+2018-09-20 16:09:14,871 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 12) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ca.usherbrooke.gegi.server.cdi.RestApplicationPathConfig
+2018-09-20 16:09:14,916 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 12) WFLYUT0021: Registered web context: '/rest-mybatis' for server 'default-server'
+2018-09-20 16:09:14,946 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "rest-mybatis.war" (runtime-name : "rest-mybatis.war")
+2018-09-20 16:11:30,674 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = rest-mybatis.war_org.postgresql.Driver_42_2
+2018-09-20 16:11:30,676 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 12) WFLYUT0022: Unregistered web context: '/rest-mybatis' from server 'default-server'
+2018-09-20 16:11:30,744 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment rest-mybatis.war (runtime-name: rest-mybatis.war) in 74ms
+2018-09-20 16:11:30,797 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "rest-mybatis.war" (runtime-name: "rest-mybatis.war")
+2018-09-20 16:11:30,848 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2018-09-20 16:11:30,851 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: EJB subsystem suspension complete
+2018-09-20 16:11:30,854 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-09-20 16:11:30,873 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-09-20 16:11:30,876 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:/jdbc/postgres/fusion/api]
+2018-09-20 16:11:30,880 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2018-09-20 16:11:30,880 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = jdbc
+2018-09-20 16:11:30,886 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-09-20 16:11:30,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment postgresql-42.2.4.jar (runtime-name: jdbc) in 28ms
+2018-09-20 16:11:30,887 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-09-20 16:11:30,893 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2018-09-20 16:11:30,895 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-09-20 16:11:30,896 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 12) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-09-20 16:11:30,896 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 2.0.9.Final stopping
+2018-09-20 16:11:30,903 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) stopped in 42ms
