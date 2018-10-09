@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <typeAliases>
+    <package name="ca.usherbrooke.gegi.server.dto"/>
+  </typeAliases>
+  <environments default="default">
+    <environment id="default">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="org.postgresql.Driver"/>
+        <property name="url" value="jdbc:postgresql://zeus.gel.usherbrooke.ca/s3info13"/>
+        <property name="username" value="s3info13"/>
+        <property name="password" value="s3info13"/>
+      </dataSource>
+    </environment>
+  </environments>
+  <mappers>
+    <package name="ca.usherbrooke.gegi.server.dao"/>
+  </mappers>
+</configuration>
