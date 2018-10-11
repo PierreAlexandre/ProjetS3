@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="s3infoe04@zeus.gel.usherbrooke.ca" uuid="b90a3a2f-402f-4e38-8711-75d4462a517f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://zeus.gel.usherbrooke.ca:5432/s3infoe04</jdbc-url>
+    </data-source>
+  </component>
+</project>
