@@ -587,8 +587,8 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2018-10-11.15:09:34.888</IntrospectionTimestamp>
-      <IntrospectionStateNumber>86249</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-10-17.15:54:52.509</IntrospectionTimestamp>
+      <IntrospectionStateNumber>86892</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -740,10 +740,10 @@
       <StateNumber>86170</StateNumber>
     </table>
     <view id="140" parent="115" name="v_annonces">
-      <ObjectId>283890</ObjectId>
+      <ObjectId>289198</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>86248</StateNumber>
-      <SourceTextLength>1110</SourceTextLength>
+      <StateNumber>86892</StateNumber>
+      <SourceTextLength>1081</SourceTextLength>
     </view>
     <routine id="141" parent="115" name="v_annonce_parm">
       <ObjectId>283895</ObjectId>
@@ -1348,62 +1348,62 @@ cip</ColNames>
     <column id="222" parent="140" name="annonce_id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
-    <column id="223" parent="140" name="Date annonce">
+    <column id="223" parent="140" name="date_annonce">
       <Position>2</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
     <column id="224" parent="140" name="categorie">
       <Position>3</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
-    <column id="225" parent="140" name="Titre d annonce">
+    <column id="225" parent="140" name="titre_annonce">
       <Position>4</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
-    <column id="226" parent="140" name="type d annonce">
+    <column id="226" parent="140" name="type_annonce">
       <Position>5</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
-    <column id="227" parent="140" name="discription_annonce">
+    <column id="227" parent="140" name="description">
       <Position>6</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
     <column id="228" parent="140" name="prix">
       <Position>7</Position>
       <DataType>money|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
     <column id="229" parent="140" name="specification_name">
       <Position>8</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
-    <column id="230" parent="140" name="Titre d article">
+    <column id="230" parent="140" name="nom_article">
       <Position>9</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
     <column id="231" parent="140" name="cours_id">
       <Position>10</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
-    <column id="232" parent="140" name="mon annonceur">
+    <column id="232" parent="140" name="nom_annonceur">
       <Position>11</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
-    <column id="233" parent="140" name="contact annaonceur">
+    <column id="233" parent="140" name="contact_annonceur">
       <Position>12</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>86248</StateNumber>
+      <StateNumber>86892</StateNumber>
     </column>
     <argument id="234" parent="141" name="parm1">
       <Position>1</Position>

@@ -7,7 +7,7 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://C:\Users\simka\Documents\ProjetS3\Serveur_Local\src\main\webapp" relative="/" />
+          <root url="file://C:\Users\simka\Documents\GitHub\ProjetS3\Serveur_Local\src\main\webapp" relative="/" />
         </webroots>
       </configuration>
     </facet>

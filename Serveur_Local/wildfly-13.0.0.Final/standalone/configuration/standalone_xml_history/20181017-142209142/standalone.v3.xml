@@ -589,8 +589,8 @@
         <deployment name="postgresql-42.2.4.jar" runtime-name="jdbc">
             <content sha1="dff98730c28a4b3a3263f0cf4abb9a3392f815a7"/>
         </deployment>
-        <deployment name="Serveur_Local.war" runtime-name="Serveur_Local.war">
-            <fs-archive path="C:\Users\simka\Documents\GitHub\ProjetS3\Serveur_Local\build\libs\Serveur_Local.war"/>
+        <deployment name="rest-mybatis.war" runtime-name="rest-mybatis.war">
+            <fs-archive path="C:\Users\simka\Documents\rest-mybatis-first\rest-mybatis\build\libs\rest-mybatis.war"/>
         </deployment>
     </deployments>
 </server>
