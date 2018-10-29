@@ -12,7 +12,7 @@ public class Annonce{
     private Float prix;
     private String specification_name;
     private String nom_article;
-    private String cours_id;
+    private String course_id;
     private String nom_annonceur;
     private String contact_annonceur;
 
