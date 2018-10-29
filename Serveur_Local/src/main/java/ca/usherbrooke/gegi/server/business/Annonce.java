@@ -89,11 +89,11 @@ public class Annonce{
     }
 
     public String get_cours_id() {
-        return cours_id;
+        return course_id;
     }
 
-    public void set_cours_id(String cours_id) {
-        this.cours_id = cours_id;
+    public void set_cours_id(String course_id) {
+        this.course_id = course_id;
     }
 
     public String get_nom_annonceur() {
