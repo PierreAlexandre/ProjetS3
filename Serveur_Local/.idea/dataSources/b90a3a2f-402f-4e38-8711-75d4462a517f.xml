@@ -587,8 +587,8 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2018-10-29.13:31:53.648</IntrospectionTimestamp>
-      <IntrospectionStateNumber>92183</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-10-29.14:06:50.749</IntrospectionTimestamp>
+      <IntrospectionStateNumber>92436</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -635,124 +635,124 @@
       <Type>index</Type>
     </access-method>
     <sequence id="122" parent="115" name="ad_ad_id_seq">
-      <ObjectId>298833</ObjectId>
+      <ObjectId>299207</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
     </sequence>
     <sequence id="123" parent="115" name="ad_type_type_ad_id_seq">
-      <ObjectId>298861</ObjectId>
+      <ObjectId>299235</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92078</StateNumber>
+      <StateNumber>92328</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
     </sequence>
     <sequence id="124" parent="115" name="branch_branch_id_seq">
-      <ObjectId>298872</ObjectId>
+      <ObjectId>299246</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92079</StateNumber>
+      <StateNumber>92329</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
     </sequence>
     <sequence id="125" parent="115" name="picture_picture_id_seq">
-      <ObjectId>298907</ObjectId>
+      <ObjectId>299281</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92083</StateNumber>
+      <StateNumber>92333</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
     </sequence>
     <sequence id="126" parent="115" name="status_id_status_seq">
-      <ObjectId>298923</ObjectId>
+      <ObjectId>299297</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92085</StateNumber>
+      <StateNumber>92335</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
     </sequence>
     <table id="127" parent="115" name="ad">
-      <ObjectId>298835</ObjectId>
+      <ObjectId>299209</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92097</StateNumber>
+      <StateNumber>92347</StateNumber>
     </table>
     <table id="128" parent="115" name="ad_course">
-      <ObjectId>298845</ObjectId>
+      <ObjectId>299219</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92092</StateNumber>
+      <StateNumber>92342</StateNumber>
     </table>
     <table id="129" parent="115" name="ad_specification">
-      <ObjectId>298853</ObjectId>
+      <ObjectId>299227</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92094</StateNumber>
+      <StateNumber>92344</StateNumber>
     </table>
     <table id="130" parent="115" name="ad_type">
-      <ObjectId>298863</ObjectId>
+      <ObjectId>299237</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92089</StateNumber>
+      <StateNumber>92339</StateNumber>
     </table>
     <table id="131" parent="115" name="branch">
-      <ObjectId>298874</ObjectId>
+      <ObjectId>299248</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92095</StateNumber>
+      <StateNumber>92345</StateNumber>
     </table>
     <table id="132" parent="115" name="category">
-      <ObjectId>298883</ObjectId>
+      <ObjectId>299257</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92096</StateNumber>
+      <StateNumber>92346</StateNumber>
     </table>
     <table id="133" parent="115" name="course">
-      <ObjectId>298891</ObjectId>
+      <ObjectId>299265</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92095</StateNumber>
+      <StateNumber>92345</StateNumber>
     </table>
     <table id="134" parent="115" name="item">
-      <ObjectId>298899</ObjectId>
+      <ObjectId>299273</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92098</StateNumber>
+      <StateNumber>92348</StateNumber>
     </table>
     <table id="135" parent="115" name="picture">
-      <ObjectId>298909</ObjectId>
+      <ObjectId>299283</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92097</StateNumber>
+      <StateNumber>92347</StateNumber>
     </table>
     <table id="136" parent="115" name="specification">
-      <ObjectId>298915</ObjectId>
+      <ObjectId>299289</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92098</StateNumber>
+      <StateNumber>92348</StateNumber>
     </table>
     <table id="137" parent="115" name="status">
-      <ObjectId>298925</ObjectId>
+      <ObjectId>299299</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92099</StateNumber>
+      <StateNumber>92349</StateNumber>
     </table>
     <table id="138" parent="115" name="student">
-      <ObjectId>298934</ObjectId>
+      <ObjectId>299308</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92100</StateNumber>
+      <StateNumber>92350</StateNumber>
     </table>
     <table id="139" parent="115" name="student_status">
-      <ObjectId>298942</ObjectId>
+      <ObjectId>299316</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92100</StateNumber>
+      <StateNumber>92350</StateNumber>
     </table>
     <view id="140" parent="115" name="v_annonces">
-      <ObjectId>299013</ObjectId>
+      <ObjectId>299387</ObjectId>
       <Owner>s3infoe04</Owner>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
       <SourceTextLength>1090</SourceTextLength>
     </view>
     <routine id="141" parent="115" name="v_annonce_parm">
-      <ObjectId>299018</ObjectId>
+      <ObjectId>299392</ObjectId>
       <Owner>s3infoe04</Owner>
       <SourceTextLength>1076</SourceTextLength>
-      <StateNumber>92183</StateNumber>
+      <StateNumber>92436</StateNumber>
       <VolatilityKind>volatile</VolatilityKind>
       <ArgumentsDefinition>parm1 text</ArgumentsDefinition>
-      <ResultsDefinition>TABLE(annonce_id integer, date_annonce timestamp without time zone, categorie text, titre_annonce text, type_annonce text, description_annonce text, prix money, specification text, titre_articl text, course_id text, nom_annonceur text, contact_annonceur text)</ResultsDefinition>
+      <ResultsDefinition>TABLE(annonce_id integer, date_annonce timestamp without time zone, categorie text, titre_annonce text, type_annonce text, description_annonce text, prix double precision, specification text, titre_articl text, course_id text, nom_annonceur text, contact_annonceur text)</ResultsDefinition>
       <LanguageName>sql</LanguageName>
       <RoutineKind>function</RoutineKind>
       <ReturnsSet>1</ReturnsSet>
@@ -763,7 +763,7 @@
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <DefaultExpression>nextval(&apos;ad_ad_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>ad_ad_id_seq</SequenceName>
@@ -772,34 +772,34 @@
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="144" parent="127" name="cip">
       <Position>3</Position>
       <DataType>char(8)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <TypeId>1042</TypeId>
     </column>
     <column id="145" parent="127" name="type_ad_id">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="146" parent="127" name="title">
       <Position>5</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="147" parent="127" name="date_time_ad">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <DefaultExpression>now()</DefaultExpression>
       <TypeId>1114</TypeId>
     </column>
@@ -807,44 +807,44 @@
       <Position>7</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="149" parent="127" name="price">
       <Position>8</Position>
-      <DataType>money|0s</DataType>
+      <DataType>double precision|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92075</StateNumber>
-      <TypeId>790</TypeId>
+      <StateNumber>92325</StateNumber>
+      <TypeId>701</TypeId>
     </column>
     <column id="150" parent="127" name="contact">
       <Position>9</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="151" parent="127" name="visits">
       <Position>10</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>92075</StateNumber>
+      <StateNumber>92325</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="152" parent="127" name="pk_ad">
-      <ObjectId>298843</ObjectId>
+      <ObjectId>299217</ObjectId>
       <ColNames>ad_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="153" parent="127" name="pk_ad">
-      <ObjectId>298844</ObjectId>
+      <ObjectId>299218</ObjectId>
       <ColNames>ad_id</ColNames>
       <UnderlyingIndexName>pk_ad</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="154" parent="127" name="fk_ad_contain_item">
-      <ObjectId>298947</ObjectId>
+      <ObjectId>299321</ObjectId>
       <ColNames>item_id</ColNames>
-      <RefTableId>298899</RefTableId>
+      <RefTableId>299273</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>item</RefTableName>
       <RefKeyName>pk_item</RefKeyName>
@@ -853,9 +853,9 @@
       <OnUpdate>restrict</OnUpdate>
     </foreign-key>
     <foreign-key id="155" parent="127" name="fk_ad_posts_student">
-      <ObjectId>298957</ObjectId>
+      <ObjectId>299331</ObjectId>
       <ColNames>cip</ColNames>
-      <RefTableId>298934</RefTableId>
+      <RefTableId>299308</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>student</RefTableName>
       <RefKeyName>pk_student</RefKeyName>
@@ -864,9 +864,9 @@
       <OnUpdate>restrict</OnUpdate>
     </foreign-key>
     <foreign-key id="156" parent="127" name="fk_ad_have_type_ad_type">
-      <ObjectId>298952</ObjectId>
+      <ObjectId>299326</ObjectId>
       <ColNames>type_ad_id</ColNames>
-      <RefTableId>298863</RefTableId>
+      <RefTableId>299237</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>ad_type</RefTableName>
       <RefKeyName>pk_ad_type</RefKeyName>
@@ -878,33 +878,33 @@
       <Position>1</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92076</StateNumber>
+      <StateNumber>92326</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="158" parent="128" name="ad_id">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92076</StateNumber>
+      <StateNumber>92326</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="159" parent="128" name="pk_ad_course">
-      <ObjectId>298851</ObjectId>
+      <ObjectId>299225</ObjectId>
       <ColNames>course_id
 ad_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="160" parent="128" name="pk_ad_course">
-      <ObjectId>298852</ObjectId>
+      <ObjectId>299226</ObjectId>
       <ColNames>course_id
 ad_id</ColNames>
       <UnderlyingIndexName>pk_ad_course</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="161" parent="128" name="fk_ad_course_ad_course_course">
-      <ObjectId>298962</ObjectId>
+      <ObjectId>299336</ObjectId>
       <ColNames>course_id</ColNames>
-      <RefTableId>298891</RefTableId>
+      <RefTableId>299265</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>course</RefTableName>
       <RefKeyName>pk_course</RefKeyName>
@@ -913,9 +913,9 @@ ad_id</ColNames>
       <OnUpdate>restrict</OnUpdate>
     </foreign-key>
     <foreign-key id="162" parent="128" name="fk_ad_course_ad_course2_ad">
-      <ObjectId>298967</ObjectId>
+      <ObjectId>299341</ObjectId>
       <ColNames>ad_id</ColNames>
-      <RefTableId>298835</RefTableId>
+      <RefTableId>299209</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>ad</RefTableName>
       <RefKeyName>pk_ad</RefKeyName>
@@ -927,39 +927,39 @@ ad_id</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92077</StateNumber>
+      <StateNumber>92327</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="164" parent="129" name="specification_id">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92077</StateNumber>
+      <StateNumber>92327</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="165" parent="129" name="specification_value">
       <Position>3</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92077</StateNumber>
+      <StateNumber>92327</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="166" parent="129" name="pk_ad_specification">
-      <ObjectId>298859</ObjectId>
+      <ObjectId>299233</ObjectId>
       <ColNames>ad_id
 specification_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="167" parent="129" name="pk_ad_specification">
-      <ObjectId>298860</ObjectId>
+      <ObjectId>299234</ObjectId>
       <ColNames>ad_id
 specification_id</ColNames>
       <UnderlyingIndexName>pk_ad_specification</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="168" parent="129" name="fk_ad_speci_ad_specif_ad">
-      <ObjectId>298972</ObjectId>
+      <ObjectId>299346</ObjectId>
       <ColNames>ad_id</ColNames>
-      <RefTableId>298835</RefTableId>
+      <RefTableId>299209</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>ad</RefTableName>
       <RefKeyName>pk_ad</RefKeyName>
@@ -968,9 +968,9 @@ specification_id</ColNames>
       <OnUpdate>restrict</OnUpdate>
     </foreign-key>
     <foreign-key id="169" parent="129" name="fk_ad_speci_ad_specif_specific">
-      <ObjectId>298977</ObjectId>
+      <ObjectId>299351</ObjectId>
       <ColNames>specification_id</ColNames>
-      <RefTableId>298915</RefTableId>
+      <RefTableId>299289</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>specification</RefTableName>
       <RefKeyName>pk_specification</RefKeyName>
@@ -982,7 +982,7 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92078</StateNumber>
+      <StateNumber>92328</StateNumber>
       <DefaultExpression>nextval(&apos;ad_type_type_ad_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>ad_type_type_ad_id_seq</SequenceName>
@@ -991,16 +991,16 @@ specification_id</ColNames>
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92078</StateNumber>
+      <StateNumber>92328</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="172" parent="130" name="pk_ad_type">
-      <ObjectId>298870</ObjectId>
+      <ObjectId>299244</ObjectId>
       <ColNames>type_ad_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="173" parent="130" name="pk_ad_type">
-      <ObjectId>298871</ObjectId>
+      <ObjectId>299245</ObjectId>
       <ColNames>type_ad_id</ColNames>
       <UnderlyingIndexName>pk_ad_type</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -1009,7 +1009,7 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92079</StateNumber>
+      <StateNumber>92329</StateNumber>
       <DefaultExpression>nextval(&apos;branch_branch_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>branch_branch_id_seq</SequenceName>
@@ -1018,16 +1018,16 @@ specification_id</ColNames>
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92079</StateNumber>
+      <StateNumber>92329</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="176" parent="131" name="pk_branch">
-      <ObjectId>298881</ObjectId>
+      <ObjectId>299255</ObjectId>
       <ColNames>branch_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="177" parent="131" name="pk_branch">
-      <ObjectId>298882</ObjectId>
+      <ObjectId>299256</ObjectId>
       <ColNames>branch_id</ColNames>
       <UnderlyingIndexName>pk_branch</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -1036,23 +1036,23 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92080</StateNumber>
+      <StateNumber>92330</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="179" parent="132" name="category">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92080</StateNumber>
+      <StateNumber>92330</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="180" parent="132" name="pk_category">
-      <ObjectId>298889</ObjectId>
+      <ObjectId>299263</ObjectId>
       <ColNames>category_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="181" parent="132" name="pk_category">
-      <ObjectId>298890</ObjectId>
+      <ObjectId>299264</ObjectId>
       <ColNames>category_id</ColNames>
       <UnderlyingIndexName>pk_category</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -1061,38 +1061,38 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92081</StateNumber>
+      <StateNumber>92331</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="183" parent="133" name="branch_id">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92081</StateNumber>
+      <StateNumber>92331</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="184" parent="133" name="course_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92081</StateNumber>
+      <StateNumber>92331</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="185" parent="133" name="pk_course">
-      <ObjectId>298897</ObjectId>
+      <ObjectId>299271</ObjectId>
       <ColNames>course_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="186" parent="133" name="pk_course">
-      <ObjectId>298898</ObjectId>
+      <ObjectId>299272</ObjectId>
       <ColNames>course_id</ColNames>
       <UnderlyingIndexName>pk_course</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="187" parent="133" name="fk_course_have_cour_branch">
-      <ObjectId>298982</ObjectId>
+      <ObjectId>299356</ObjectId>
       <ColNames>branch_id</ColNames>
-      <RefTableId>298874</RefTableId>
+      <RefTableId>299248</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>branch</RefTableName>
       <RefKeyName>pk_branch</RefKeyName>
@@ -1104,38 +1104,38 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92082</StateNumber>
+      <StateNumber>92332</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="189" parent="134" name="category_id">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92082</StateNumber>
+      <StateNumber>92332</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="190" parent="134" name="item_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92082</StateNumber>
+      <StateNumber>92332</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="191" parent="134" name="pk_item">
-      <ObjectId>298905</ObjectId>
+      <ObjectId>299279</ObjectId>
       <ColNames>item_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="192" parent="134" name="pk_item">
-      <ObjectId>298906</ObjectId>
+      <ObjectId>299280</ObjectId>
       <ColNames>item_id</ColNames>
       <UnderlyingIndexName>pk_item</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="193" parent="134" name="fk_item_have_cate_category">
-      <ObjectId>298987</ObjectId>
+      <ObjectId>299361</ObjectId>
       <ColNames>category_id</ColNames>
-      <RefTableId>298883</RefTableId>
+      <RefTableId>299257</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>category</RefTableName>
       <RefKeyName>pk_category</RefKeyName>
@@ -1147,7 +1147,7 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92083</StateNumber>
+      <StateNumber>92333</StateNumber>
       <DefaultExpression>nextval(&apos;picture_picture_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>picture_picture_id_seq</SequenceName>
@@ -1156,31 +1156,31 @@ specification_id</ColNames>
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92083</StateNumber>
+      <StateNumber>92333</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="196" parent="135" name="picture_ad">
       <Position>3</Position>
       <DataType>char(254)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92083</StateNumber>
+      <StateNumber>92333</StateNumber>
       <TypeId>1042</TypeId>
     </column>
     <index id="197" parent="135" name="pk_picture">
-      <ObjectId>298913</ObjectId>
+      <ObjectId>299287</ObjectId>
       <ColNames>picture_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="198" parent="135" name="pk_picture">
-      <ObjectId>298914</ObjectId>
+      <ObjectId>299288</ObjectId>
       <ColNames>picture_id</ColNames>
       <UnderlyingIndexName>pk_picture</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="199" parent="135" name="fk_picture_have_pict_ad">
-      <ObjectId>298992</ObjectId>
+      <ObjectId>299366</ObjectId>
       <ColNames>ad_id</ColNames>
-      <RefTableId>298835</RefTableId>
+      <RefTableId>299209</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>ad</RefTableName>
       <RefKeyName>pk_ad</RefKeyName>
@@ -1192,38 +1192,38 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92084</StateNumber>
+      <StateNumber>92334</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="201" parent="136" name="item_id">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92084</StateNumber>
+      <StateNumber>92334</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="202" parent="136" name="specification_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92084</StateNumber>
+      <StateNumber>92334</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="203" parent="136" name="pk_specification">
-      <ObjectId>298921</ObjectId>
+      <ObjectId>299295</ObjectId>
       <ColNames>specification_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="204" parent="136" name="pk_specification">
-      <ObjectId>298922</ObjectId>
+      <ObjectId>299296</ObjectId>
       <ColNames>specification_id</ColNames>
       <UnderlyingIndexName>pk_specification</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="205" parent="136" name="fk_specific_have_spec_item">
-      <ObjectId>298997</ObjectId>
+      <ObjectId>299371</ObjectId>
       <ColNames>item_id</ColNames>
-      <RefTableId>298899</RefTableId>
+      <RefTableId>299273</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>item</RefTableName>
       <RefKeyName>pk_item</RefKeyName>
@@ -1235,7 +1235,7 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92085</StateNumber>
+      <StateNumber>92335</StateNumber>
       <DefaultExpression>nextval(&apos;status_id_status_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>status_id_status_seq</SequenceName>
@@ -1244,16 +1244,16 @@ specification_id</ColNames>
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92085</StateNumber>
+      <StateNumber>92335</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="208" parent="137" name="pk_status">
-      <ObjectId>298932</ObjectId>
+      <ObjectId>299306</ObjectId>
       <ColNames>id_status</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="209" parent="137" name="pk_status">
-      <ObjectId>298933</ObjectId>
+      <ObjectId>299307</ObjectId>
       <ColNames>id_status</ColNames>
       <UnderlyingIndexName>pk_status</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -1262,36 +1262,36 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>char(8)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92086</StateNumber>
+      <StateNumber>92336</StateNumber>
       <TypeId>1042</TypeId>
     </column>
     <column id="211" parent="138" name="user_name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92086</StateNumber>
+      <StateNumber>92336</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="212" parent="138" name="password">
       <Position>3</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92086</StateNumber>
+      <StateNumber>92336</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="213" parent="138" name="e_mail">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92086</StateNumber>
+      <StateNumber>92336</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="214" parent="138" name="pk_student">
-      <ObjectId>298940</ObjectId>
+      <ObjectId>299314</ObjectId>
       <ColNames>cip</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="215" parent="138" name="pk_student">
-      <ObjectId>298941</ObjectId>
+      <ObjectId>299315</ObjectId>
       <ColNames>cip</ColNames>
       <UnderlyingIndexName>pk_student</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -1300,33 +1300,33 @@ specification_id</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92087</StateNumber>
+      <StateNumber>92337</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="217" parent="139" name="cip">
       <Position>2</Position>
       <DataType>char(8)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>92087</StateNumber>
+      <StateNumber>92337</StateNumber>
       <TypeId>1042</TypeId>
     </column>
     <index id="218" parent="139" name="pk_student_status">
-      <ObjectId>298945</ObjectId>
+      <ObjectId>299319</ObjectId>
       <ColNames>id_status
 cip</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="219" parent="139" name="pk_student_status">
-      <ObjectId>298946</ObjectId>
+      <ObjectId>299320</ObjectId>
       <ColNames>id_status
 cip</ColNames>
       <UnderlyingIndexName>pk_student_status</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="220" parent="139" name="fk_student__student_s_status">
-      <ObjectId>299002</ObjectId>
+      <ObjectId>299376</ObjectId>
       <ColNames>id_status</ColNames>
-      <RefTableId>298925</RefTableId>
+      <RefTableId>299299</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>status</RefTableName>
       <RefKeyName>pk_status</RefKeyName>
@@ -1335,9 +1335,9 @@ cip</ColNames>
       <OnUpdate>restrict</OnUpdate>
     </foreign-key>
     <foreign-key id="221" parent="139" name="fk_student__student_s_student">
-      <ObjectId>299007</ObjectId>
+      <ObjectId>299381</ObjectId>
       <ColNames>cip</ColNames>
-      <RefTableId>298934</RefTableId>
+      <RefTableId>299308</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>student</RefTableName>
       <RefKeyName>pk_student</RefKeyName>
@@ -1348,62 +1348,62 @@ cip</ColNames>
     <column id="222" parent="140" name="annonce_id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="223" parent="140" name="date_annonce">
       <Position>2</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="224" parent="140" name="categorie">
       <Position>3</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="225" parent="140" name="titre_annonce">
       <Position>4</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="226" parent="140" name="type_annonce">
       <Position>5</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="227" parent="140" name="description">
       <Position>6</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="228" parent="140" name="prix">
       <Position>7</Position>
-      <DataType>money|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <DataType>double precision|0s</DataType>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="229" parent="140" name="specification_name">
       <Position>8</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="230" parent="140" name="nom_article">
       <Position>9</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="231" parent="140" name="course_id">
       <Position>10</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="232" parent="140" name="nom_annonceur">
       <Position>11</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <column id="233" parent="140" name="contact_annonceur">
       <Position>12</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>92182</StateNumber>
+      <StateNumber>92435</StateNumber>
     </column>
     <argument id="234" parent="141" name="parm1">
       <Position>1</Position>
@@ -1411,7 +1411,7 @@ cip</ColNames>
     </argument>
     <argument id="235" parent="141">
       <ArgumentDirection>T</ArgumentDirection>
-      <DataType>table(annonce_id integer, date_annonce timestamp, categorie text, titre_annonce text, type_annonce text, description_annonce text, prix money, specification text, titre_articl text, course_id text, nom_annonceur text, contact_annonceur text)|0v</DataType>
+      <DataType>table(annonce_id integer, date_annonce timestamp, categorie text, titre_annonce text, type_annonce text, description_annonce text, prix double precision, specification text, titre_articl text, course_id text, nom_annonceur text, contact_annonceur text)|0v</DataType>
     </argument>
   </database-model>
 </dataSource>
