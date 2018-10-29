@@ -121,7 +121,7 @@
     <body style="padding: 10px;">
     <form action="api/annonce">
         <label>Numéro:</label>
-        <input type="text" name="id">
+        <input type="text" name="id" id="formParameter">
         <button type="submit">Submit</button>
     </form>
     </body>
@@ -132,13 +132,14 @@
     <div class="side">
         <h2>Navigation Rapide</h2>
         <p></p>
-        <div class="Annonce" style="height:60px;">Annonce1</div>
+        <div class="Annonce" style="height:60px;">Annonce1<form action="api/annonce"></form></div>
         <p></p>
         <div class="Annonce" style="height:60px;">Annonce2</div>
         <p></p>
         <div class="Annonce" style="height:60px;">Annonce3</div>
     </div>
-    <div class="main">
+    <button onclick="main()">Submit</button>
+    <div class="main" id="main">
 
     </div>
 </div>
@@ -147,5 +148,6 @@
     <h2></h2>
 </div>
 
+<script type="text/javascript" src="js/main.js"> </script>
 </body>
 </html>
