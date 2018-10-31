@@ -14,14 +14,10 @@ function main()
 
             var reponse = this.response.split("{");
 
-            document.getElementById("annonce1").innerHTML = reponse[1];
-            document.getElementById("annonce2").innerHTML = reponse[2];
-            document.getElementById("annonce3").innerHTML = reponse[3];
-
             var mainDiv = document.getElementById("divMain");
 
             var i;
-            for(i = 1;i < 10; i++) {     //il faut utiliser createElement a l'interieur du for sinon on deplace l'element plutot que d'en creer un nouveau
+            for(i = 1;i < reponse.length; i++) {     //il faut utiliser createElement a l'interieur du for sinon on deplace l'element plutot que d'en creer un nouveau
                 var p2 = document.createElement('p');
                 mainDiv.appendChild(p2);
 
