@@ -590,7 +590,7 @@
             <content sha1="dff98730c28a4b3a3263f0cf4abb9a3392f815a7"/>
         </deployment>
         <deployment name="Serveur_Local.war" runtime-name="Serveur_Local.war">
-            <fs-archive path="C:\Users\Admin\Documents\GitHub\ProjetS3\Serveur_Local\build\libs\Serveur_Local.war"/>
+            <fs-archive path="C:\Users\Pierre-Alexandre\Documents\GitHub\ProjetS3\Serveur_Local\build\libs\Serveur_Local.war"/>
         </deployment>
     </deployments>
 </server>
