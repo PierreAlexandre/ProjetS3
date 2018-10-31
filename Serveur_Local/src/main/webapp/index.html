@@ -129,17 +129,20 @@
 </div>
 
 <div class="row">
-    <div class="side">
+    <div class="side" id="divMain">
         <h2>Navigation Rapide</h2>
         <p></p>
-        <div class="Annonce" style="height:60px;">Annonce1    <div class="main" id="main"></div></div>
+        <div class="Annonce" style="height:60px;" id="annonce1">Annonce1<form action="api/annonce"></form></div>
         <p></p>
-        <div class="Annonce" style="height:60px;">Annonce2</div>
+        <div class="Annonce" style="height:60px;" id="annonce2">Annonce2</div>
         <p></p>
-        <div class="Annonce" style="height:60px;">Annonce3</div>
+        <div class="Annonce" style="height:60px;" id="annonce3">Annonce3</div>
+
     </div>
     <button onclick="main()">Submit</button>
+    <div class="main" id="main">
 
+    </div>
 </div>
 
 <div class="footer">
