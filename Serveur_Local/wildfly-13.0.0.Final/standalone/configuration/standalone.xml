@@ -589,8 +589,11 @@
         <deployment name="postgresql-42.2.4.jar" runtime-name="jdbc">
             <content sha1="dff98730c28a4b3a3263f0cf4abb9a3392f815a7"/>
         </deployment>
+<<<<<<< HEAD
         <deployment name="Serveur_Local.war" runtime-name="Serveur_Local.war">
             <fs-archive path="C:\Users\Pierre-Alexandre\Documents\GitHub\ProjetS3\Serveur_Local\build\libs\Serveur_Local.war"/>
         </deployment>
+=======
+>>>>>>> c9d8e55b699013b398c124ea3e5d18849d7ac5cb
     </deployments>
 </server>

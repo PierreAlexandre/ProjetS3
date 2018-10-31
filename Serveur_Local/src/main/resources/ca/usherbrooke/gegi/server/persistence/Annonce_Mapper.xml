@@ -5,7 +5,22 @@
 <mapper namespace="ca.usherbrooke.gegi.server.persistence.Annonce_Mapper">
 
   <select id="select" resultType="Annonce">
-  SELECT * FROM v_annonces;
 
+  SELECT
+    annonce_id,
+    date_annonce,
+    categorie,
+    titre_annonce,
+    type_annonce,
+    description,
+    prix,
+    specification_name,
+    nom_article,
+    course_id,
+    nom_annonceur,
+    contact_annonceur
+
+  FROM v_annonces
+  WHERE annonce_id=#{id};
     </select>
 </mapper>
