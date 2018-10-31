@@ -4,7 +4,7 @@ function main()
 
     var formParameter = document.getElementById("formParameter").value;
     var xmlhttp = new XMLHttpRequest();
-    var url = "api/annonce?id=" + formParameter;
+    var url = "api/annonce?id=1" + formParameter;
     var stringTest = "tempo tempo";
 
     xmlhttp.onreadystatechange = function() {
