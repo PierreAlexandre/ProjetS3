@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ca.usherbrooke.gegi.server.persistence.Annonce_Mapper_START">
+
+  <select id="select" resultType="Annonce">
+
+  SELECT
+    annonce_id,
+    date_annonce,
+    categorie,
+    titre_annonce,
+    type_annonce,
+    description,
+    prix,
+    specification_name,
+    nom_article,
+    course_id,
+    nom_annonceur,
+    contact_annonceur
+
+  FROM v_annonces
+  ORDER BY date_annonce;
+    </select>
+</mapper>
