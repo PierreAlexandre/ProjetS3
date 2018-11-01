@@ -23,8 +23,9 @@ function main()
 
                 var div = document.createElement('div');
                 div.className = "Annonce";
-                div.style = "height:60px";
-                div.innerHTML = reponse[i];
+                div.style = "height:160px";
+                div.innerHTML = "<h2>" +FindPostTitle(reponse[i]) + "</h2>";
+                div.innerHTML += reponse[i];
                 mainDiv.appendChild(div);
             }
 
@@ -33,4 +34,22 @@ function main()
 
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
+}
+
+function FindPostTitle(input)
+{
+    var position =  input.indexOf("_nom_article")
+    position += 15;
+    var postTitle = "";
+    var currentChar = input.charAt(position);
+
+    while(currentChar!='\"')
+    {
+        postTitle+=currentChar;
+        position++;
+        currentChar = input.charAt(position);
+    }
+
+    return postTitle;
+
 }
