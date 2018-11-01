@@ -24,8 +24,12 @@ function main()
                 var div = document.createElement('div');
                 div.className = "Annonce";
                 div.style = "height:160px";
-                div.innerHTML = "<h2>" +FindPostTitle(reponse[i]) + "</h2>";
-                div.innerHTML += reponse[i];
+                div.innerHTML += "<div>\n" +
+                    "    <p style=\"float: left;\"><img src=\"http://placekitten.com/g/200/200\" height=\"120px\" width=\"120px\" border=\"1px\"></p>\n";
+                div.innerHTML += "<h2>" +FindPostTitle(reponse[i]) + "</h2>";
+                div.innerHTML +="<p>"+ reponse[i] +"</p></div>";
+
+
                 mainDiv.appendChild(div);
             }
 
@@ -34,9 +38,7 @@ function main()
 
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
-}
-
-function FindPostTitle(input)
+}function FindPostTitle(input)
 {
     var position =  input.indexOf("_nom_article")
     position += 15;
