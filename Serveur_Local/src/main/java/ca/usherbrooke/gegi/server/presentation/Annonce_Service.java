@@ -1,7 +1,9 @@
 package ca.usherbrooke.gegi.server.presentation;
 
+import ca.usherbrooke.gegi.server.business.Annonce_book;
 import ca.usherbrooke.gegi.server.persistence.Annonce_Mapper;
 import ca.usherbrooke.gegi.server.business.Annonce;
+import ca.usherbrooke.gegi.server.persistence.Annonce_Book_Mapper;
 
 import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
@@ -21,6 +23,8 @@ public class Annonce_Service {
     @Inject
     Annonce_Mapper annonce_Mapper;
 
+
+
     @GET
     @Produces("application/json")
     public List<Annonce> get_Annonce(@QueryParam("id") Integer id) {
@@ -29,4 +33,8 @@ public class Annonce_Service {
         List<Annonce> annonces = annonce_Mapper.select(id);
         return annonces;
     }
+
+
+
+
 }
