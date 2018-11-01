@@ -23,11 +23,13 @@ function main()
 
                 var div = document.createElement('div');
                 div.className = "Annonce";
-                div.style = "height:160px";
+                div.style = "height:180px";
                 div.innerHTML += "<div>\n" +
                     "    <p style=\"float: left;\"><img src=\"http://placekitten.com/g/200/200\" height=\"120px\" width=\"120px\" border=\"1px\"></p>\n";
-                div.innerHTML += "<h2>" +FindPostTitle(reponse[i]) + "</h2>";
-                div.innerHTML +="<p>"+ reponse[i] +"</p></div>";
+                div.innerHTML += "<h2>" +FindPostTag("_nom_article\":\"",reponse[i]) + " - " + FindPostTag(",\"_prix\":",reponse[i]) + "</h2>";
+                div.innerHTML += "<h3>Publié par : "+ FindPostTag("_contact_annonceurr\":\"",reponse[i])+"</h3>";
+
+                div.innerHTML += "<p>" + FindPostTag("_description\":\"",reponse[i]) + "</p>";
 
 
                 mainDiv.appendChild(div);
@@ -38,20 +40,30 @@ function main()
 
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
-}function FindPostTitle(input)
+}
+function FindPostTag(tag,input)
 {
-    var position =  input.indexOf("_nom_article")
-    position += 15;
-    var postTitle = "";
+    var position =  input.indexOf(tag)
+    position += tag.length;
+    var result = "";
     var currentChar = input.charAt(position);
 
     while(currentChar!='\"')
     {
-        postTitle+=currentChar;
+        result+=currentChar;
         position++;
         currentChar = input.charAt(position);
     }
 
-    return postTitle;
+    if(tag.includes("prix"))
+    {
+        result = result.slice(0, result.length - 1); //enleve la virgule presente apres le prix
+        result += "$";
 
+        if(result.includes(".0$")) {
+            result = result.slice(0, result.length - 1);
+            result += "0$";
+        }
+    }
+    return result;
 }
