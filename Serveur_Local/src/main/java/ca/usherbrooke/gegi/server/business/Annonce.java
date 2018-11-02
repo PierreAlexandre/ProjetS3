@@ -9,7 +9,7 @@ public class Annonce{
     private String titre_annonce;
     private String type_annonce;
     private String description;
-    private Float prix;
+    private Double prix;
     private String specification_name;
     private String nom_article;
     private String course_id;
@@ -64,11 +64,11 @@ public class Annonce{
         this.description = description;
     }
 
-    public Float get_prix() {
+    public Double get_prix() {
         return prix;
     }
 
-    public void set_prix(Float prix) {
+    public void set_prix(Double prix) {
         this.prix = prix;
     }
 

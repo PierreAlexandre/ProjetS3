@@ -21,6 +21,8 @@
     contact_annonceur
 
   FROM v_annonces
-  ORDER BY date_annonce;
+
     </select>
+
+
 </mapper>

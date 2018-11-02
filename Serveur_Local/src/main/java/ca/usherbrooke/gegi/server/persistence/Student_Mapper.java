@@ -9,8 +9,8 @@ import java.util.List;
 
 @SuppressWarnings("CdiManagedBeanInconsistencyInspection")
 @Mapper
-public interface Annonce_Mapper_START {
+public interface Student_Mapper {
 
-    List<Annonce> select(@Param("id") Integer id);
 
+    void insertStudent(Student student);
 }
