@@ -5,7 +5,6 @@ function main()
     var formParameter = document.getElementById("formParameter").value;
     var xmlhttp = new XMLHttpRequest();
     var url = "api/annonce_start?id=1" + formParameter;
-    var stringTest = "tempo tempo";
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -66,4 +65,9 @@ function FindPostTag(tag,input)
         }
     }
     return result;
+}
+
+function add()
+{
+
 }
