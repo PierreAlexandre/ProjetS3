@@ -9,7 +9,7 @@ public class Annonce_book  extends  Annonce {
     private String ISBN;
     private String edition;
     private String titre;
-    private Double price;
+    //private Double price;
     private int type_ad_id;
     private String contact;
 
@@ -29,15 +29,15 @@ public class Annonce_book  extends  Annonce {
         this.type_ad_id = type_ad_id;
     }
 
-    private String cours_id;
 
-    public void setPrice(Double price) {
+
+    /*public void setPrice(Double price) {
         this.price = price;
     }
 
     public Double getPrice() {
         return price;
-    }
+    }*/
 
     public String getAuteur() {
         return auteur;
@@ -55,9 +55,7 @@ public class Annonce_book  extends  Annonce {
         return titre;
     }
 
-    public String getCours_id() {
-        return cours_id;
-    }
+
 
     public void setAuteur(String auteur) {
         this.auteur = auteur;
@@ -75,9 +73,7 @@ public class Annonce_book  extends  Annonce {
         this.titre = titre;
     }
 
-    public void setCours_id(String cours_id) {
-        this.cours_id = cours_id;
-    }
+
 
     public void setCip(String cip) {
         this.cip = cip;
@@ -104,8 +100,8 @@ public class Annonce_book  extends  Annonce {
                 ", ISBN='" + ISBN + '\'' +
                 ", edition='" + edition + '\'' +
                 ", titre='" + titre + '\'' +
-                ", price=" + price +
-                ", cours_id='" + cours_id + '\'' +
+                //", price=" + price +
+                //", cours_id='" + cours_id + '\'' +
                 '}';
     }
 }

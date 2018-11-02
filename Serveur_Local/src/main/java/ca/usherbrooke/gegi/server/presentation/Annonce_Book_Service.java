@@ -34,13 +34,19 @@ public class Annonce_Book_Service {
         Annonce_book annonceBook = new Annonce_book();
 
         //annonceBook.setAd_id(10);
-        annonceBook.set_categorie("itm01");
-        annonceBook.setCip("cip02222");
+        //annonceBook.set_categorie("itm01");
+        annonceBook.setCip("ihab0001");
         annonceBook.setType_ad_id(1);
-        annonceBook.set_titre_annonce("Annonce pour livre de prog mybatis +sql");
-        annonceBook.set_description("un tree bon livre de prog mybatis +sql ");
-        annonceBook.setPrice(25.5);
-        annonceBook.setContact("cip02222@gmail.com");
+        annonceBook.set_titre_annonce("Annonce_test pour livre de prog mybatis +sql");
+        annonceBook.set_description("test livre de prog mybatis +sql ");
+        annonceBook.set_prix(99.9);
+        annonceBook.setContact("ciptest02222@gmail.com");
+        annonceBook.setAuteur("auteur_test");
+        annonceBook.setISBN("ISBN0000000001");
+        annonceBook.setEdition("Edition 2018");
+        annonceBook.setTitre("programmation java et SQL");
+        annonceBook.set_cours_id("GIF332");
+
 
 
         annonce_Book_Mapper.insertAnnonce_Book(annonceBook);

@@ -6,8 +6,9 @@
 
   <insert id="insertAnnonce_Book" parameterType="Annonce_book">
 
-    INSERT INTO ad(ad_id,item_id, cip, type_ad_id, title, description_ad,price,contact )
-    VALUES (DEFAULT,#{categorie},#{cip}, #{type_ad_id}, #{titre_annonce}, #{description},#{price},#{contact});
+
+
+    select new_annoncebookinsert(#{cip}, #{type_ad_id}, #{titre_annonce},#{description},#{prix},#{contact},#{auteur},#{ISBN},#{edition},#{titre},#{course_id}) ;
 
     </insert>
 </mapper>
