@@ -66,8 +66,3 @@ function FindPostTag(tag,input)
     }
     return result;
 }
-
-function add()
-{
-
-}
