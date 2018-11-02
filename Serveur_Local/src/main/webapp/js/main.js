@@ -60,7 +60,7 @@ function FindPostTag(tag,input)
         result = result.slice(0, result.length - 1); //enleve la virgule presente apres le prix
         result += "$";
 
-        if(result.includes(".0$")) {
+        if(result.charAt(result.indexOf("$")-2)==".") { //rajoute un 0 a la fin du prix pour eviter d'avoir qqch comme 20.0$
             result = result.slice(0, result.length - 1);
             result += "0$";
         }
