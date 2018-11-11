@@ -23,24 +23,4 @@
   FROM v_annonces
   WHERE annonce_id=#{id};
     </select>
-
-  <select id="select2" resultType="Annonce">
-
-  SELECT
-    annonce_id,
-    date_annonce,
-    categorie,
-    titre_annonce,
-    type_annonce,
-    description,
-    prix,
-    specification_name,
-    nom_article,
-    course_id,
-    nom_annonceur,
-    contact_annonceur
-
-  FROM v_annonces
-  WHERE course_id=#{course_id};
-    </select>
 </mapper>
