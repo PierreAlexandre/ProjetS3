@@ -16,21 +16,20 @@ function main()
             var mainDiv = document.getElementById("divMain");
 
             var i;
-            for(i = 1;i < reponse.length; i++) {     //il faut utiliser createElement a l'interieur du for sinon on deplace l'element plutot que d'en creer un nouveau
+            for(i = 1;i < reponse.length; i++) {     //pour chaque annonce presente dans la reponse du serveur
+                //Creation de l'espace entre chaque annonce
                 var p2 = document.createElement('p');
                 mainDiv.appendChild(p2);
 
+                //Creation d'une annonce
                 var div = document.createElement('div');
                 div.className = "Annonce";
                 div.style = "height:180px";
                 div.innerHTML += "<div>\n" +
-                    "    <p style=\"float: left;\"><img src=\"http://placekitten.com/g/200/200\" height=\"120px\" width=\"120px\" border=\"1px\"></p>\n";
-                div.innerHTML += "<h2>" +FindPostTag("_nom_article\":\"",reponse[i]) + " - " + FindPostTag(",\"_prix\":",reponse[i]) + "</h2>";
-                div.innerHTML += "<h3>Publié par : "+ FindPostTag("_contact_annonceurr\":\"",reponse[i])+"</h3>";
-
-                div.innerHTML += "<p>" + FindPostTag("_description\":\"",reponse[i]) + "</p>";
-
-
+                    "<p style=\"float: left;\"><img src=\"http://placekitten.com/g/200/200\" height=\"120px\" width=\"120px\" border=\"1px\"></p>\n";
+                div.innerHTML += "<h2>" +FindPostTag('_nom_article":"',reponse[i]) + " - " + FindPostTag(',"_prix":',reponse[i]) + "</h2>";
+                div.innerHTML += "<h3>Publié par : "+ FindPostTag('_contact_annonceurr":"',reponse[i])+"</h3>";
+                div.innerHTML += "<p>" + FindPostTag('_description":"',reponse[i]) + "</p>";
                 mainDiv.appendChild(div);
             }
 
@@ -40,6 +39,8 @@ function main()
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
+
+//cherche le contenu qui suit un tag (ex: titre:, prix:, ...) a l'interieur d'une string de texte (input)
 function FindPostTag(tag,input)
 {
     var position =  input.indexOf(tag)
@@ -47,7 +48,7 @@ function FindPostTag(tag,input)
     var result = "";
     var currentChar = input.charAt(position);
 
-    while(currentChar!='\"')
+    while(currentChar!='\"') //tant que le caractere n'est pas un " (qui indique la fin de l'info qu'on recherche)
     {
         result+=currentChar;
         position++;
