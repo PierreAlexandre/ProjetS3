@@ -41,6 +41,8 @@ function main()
 
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
+
+    addCurrentUserCipToDatabase();
 }
 
 //cherche le contenu qui suit un tag (ex: titre:, prix:, ...) a l'interieur d'une string de texte (input)
@@ -69,4 +71,12 @@ function FindPostTag(tag,input)
         }
     }
     return result;
+}
+
+function addCurrentUserCipToDatabase()
+{
+    var xmlhttp = new XMLHttpRequest();
+    var url = "api/student"
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
 }
