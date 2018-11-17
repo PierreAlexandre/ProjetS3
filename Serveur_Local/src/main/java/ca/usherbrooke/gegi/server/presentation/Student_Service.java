@@ -24,12 +24,11 @@ public class Student_Service {
     Student_Mapper student_Mapper;
 
 
-
-    @Path("/add/{cip}")
-    public void creat_Student(@QueryParam("cip") String cip){
+    @GET
+    public void creat_Student(){
         System.out.println("insert ok test 1");
         Student student = new Student();
-        student.setCip("cip02222");
+        student.setCip(httpServletRequest.getUserPrincipal().getName());
         student.setUser_name("student11");
         student.setE_mail("cip11@ush.ca");
         student.setPhone("819-000 2222");

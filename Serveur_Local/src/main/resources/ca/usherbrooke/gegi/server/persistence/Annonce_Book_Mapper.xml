@@ -11,4 +11,12 @@
     select new_annoncebookinsert(#{cip}, #{type_ad_id}, #{titre_annonce},#{description},#{prix},#{contact},#{auteur},#{ISBN},#{edition},#{titre},#{course_id}) ;
 
     </insert>
+
+  <delete id="deleteAnnonce_Book" parameterType="Annonce_book">
+
+
+
+    select delete_annonce(#{cip}, #{annonce_id}) ;
+
+    </delete>
 </mapper>

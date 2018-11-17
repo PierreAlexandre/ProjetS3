@@ -54,4 +54,23 @@ public class Annonce_Book_Service {
 
 
     }
+
+    @Path("/delete_annonce")
+    public void anonce_delete(@QueryParam("annonce_id") Integer annonce_id ){
+        System.out.println("annonce delete test ok int +++++++++++++++++");
+
+
+        Annonce_book annonceBook = new Annonce_book();
+
+
+        annonceBook.setCip(httpServletRequest.getUserPrincipal().getName());
+        annonceBook.setAd_id(annonce_id);
+        //annonceBook.setCip("ihab0001");
+        //annonceBook.set_annonce_id(25);
+
+        annonce_Book_Mapper.deleteAnnonce_Book(annonceBook);
+        System.out.println("annonce delete test ok out ++++++++++++++++++");
+
+
+    }
 }
