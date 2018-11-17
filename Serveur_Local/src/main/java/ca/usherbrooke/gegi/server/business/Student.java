@@ -1,10 +1,21 @@
+
 package ca.usherbrooke.gegi.server.business;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Student {
     private String cip;
     private String user_name;
     private String e_mail;
     private String phone;
+    private  List<Integer> my_annonces_List = new ArrayList<Integer>();
+
+    public void setMy_annonces_List(int id_annonce) {
+        this.my_annonces_List.add(id_annonce);
+    }
+
+//public int delete_annonce(Annonce_book annonce_book){}
 
     public String getCip() {
         return cip;

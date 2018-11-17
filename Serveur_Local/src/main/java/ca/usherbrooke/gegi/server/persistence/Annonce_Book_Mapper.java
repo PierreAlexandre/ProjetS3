@@ -9,4 +9,5 @@ public interface Annonce_Book_Mapper {
 
 
     void insertAnnonce_Book(Annonce_book annonce_Book);
+    void deleteAnnonce_Book(Annonce_book annonce_Book);
 }
