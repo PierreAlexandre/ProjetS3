@@ -37,7 +37,7 @@ public class Annonce_Book_Service {
 
         //annonceBook.setAd_id(10);
         //annonceBook.set_categorie("itm01");
-        annonceBook.setCip(cip);
+        annonceBook.setCip(httpServletRequest.getUserPrincipal().getName());
         annonceBook.setType_ad_id(type_ad_id);
         annonceBook.set_titre_annonce(titre_annonce);
         annonceBook.set_description(description);
@@ -66,7 +66,7 @@ public class Annonce_Book_Service {
         annonceBook.setCip(httpServletRequest.getUserPrincipal().getName());
         annonceBook.setAd_id(annonce_id);
         //annonceBook.setCip("ihab0001");
-        //annonceBook.set_annonce_id(25);
+        //annonceBook.set_annonce_id(69);
 
         annonce_Book_Mapper.deleteAnnonce_Book(annonceBook);
         System.out.println("annonce delete test ok out ++++++++++++++++++");
