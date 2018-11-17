@@ -26,7 +26,7 @@ public class Annonce_Book_Service {
     Annonce_Book_Mapper annonce_Book_Mapper;
 
     @Path("/add_annonce")
-    public void anonce_Add(@QueryParam("cip") String cip, @QueryParam("type_ad_id") Integer type_ad_id, @QueryParam("titre_annonce") String titre_annonce,
+    public void anonce_Add(@QueryParam("cip") String cip, @QueryParam("titre_annonce") String titre_annonce,
                            @QueryParam("description") String description, @QueryParam("prix") double prix, @QueryParam("contact") String contact,
                            @QueryParam("auteur") String auteur, @QueryParam("ISBN") String ISBN, @QueryParam("edition") String edition,
                            @QueryParam("titre") String titre, @QueryParam("course_id") String course_id){
@@ -38,7 +38,7 @@ public class Annonce_Book_Service {
         //annonceBook.setAd_id(10);
         //annonceBook.set_categorie("itm01");
         annonceBook.setCip(httpServletRequest.getUserPrincipal().getName());
-        annonceBook.setType_ad_id(type_ad_id);
+        annonceBook.setType_ad_id(1);
         annonceBook.set_titre_annonce(titre_annonce);
         annonceBook.set_description(description);
         annonceBook.set_prix(prix);
