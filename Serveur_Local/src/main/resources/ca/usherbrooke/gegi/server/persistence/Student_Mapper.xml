@@ -6,8 +6,10 @@
 
   <insert id="insertStudent" parameterType="Student">
 
-    INSERT INTO student(cip, user_name, e_mail, phone )
-    VALUES (#{cip}, #{user_name}, #{e_mail}, #{phone});
 
+    INSERT INTO student(cip,user_name, e_mail, phone )
+    VALUES (#{cip}, #{user_name}, #{e_mail}, #{phone})
+    ON CONFLICT (cip)
+    DO NOTHING;
     </insert>
 </mapper>

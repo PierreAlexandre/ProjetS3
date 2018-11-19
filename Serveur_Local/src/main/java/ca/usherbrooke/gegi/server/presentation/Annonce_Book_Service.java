@@ -26,18 +26,16 @@ public class Annonce_Book_Service {
     Annonce_Book_Mapper annonce_Book_Mapper;
 
     @Path("/add_annonce")
-    public void anonce_Add(@QueryParam("cip") String cip, @QueryParam("titre_annonce") String titre_annonce,
+    public void anonce_Add(@QueryParam("titre_annonce") String titre_annonce,
                            @QueryParam("description") String description, @QueryParam("prix") double prix, @QueryParam("contact") String contact,
                            @QueryParam("auteur") String auteur, @QueryParam("ISBN") String ISBN, @QueryParam("edition") String edition,
                            @QueryParam("titre") String titre, @QueryParam("course_id") String course_id){
         System.out.println("annonce add ok test 1 int +++++++++++++++++");
 
-
+        String cip = httpServletRequest.getUserPrincipal().getName();
         Annonce_book annonceBook = new Annonce_book();
 
-        //annonceBook.setAd_id(10);
-        //annonceBook.set_categorie("itm01");
-        annonceBook.setCip(httpServletRequest.getUserPrincipal().getName());
+        annonceBook.setCip(cip);
         annonceBook.setType_ad_id(1);
         annonceBook.set_titre_annonce(titre_annonce);
         annonceBook.set_description(description);
@@ -49,8 +47,10 @@ public class Annonce_Book_Service {
         annonceBook.setTitre(titre);
         annonceBook.set_cours_id(course_id);
 
+        System.out.println("LE CIP EST DE  :::::"+annonceBook.getCip());
+
         annonce_Book_Mapper.insertAnnonce_Book(annonceBook);
-        System.out.println("annonce add ok test 2 out ++++++++++++++++++");
+
 
 
     }
@@ -59,14 +59,10 @@ public class Annonce_Book_Service {
     public void anonce_delete(@QueryParam("annonce_id") Integer annonce_id ){
         System.out.println("annonce delete test ok int +++++++++++++++++");
 
-
         Annonce_book annonceBook = new Annonce_book();
-
 
         annonceBook.setCip(httpServletRequest.getUserPrincipal().getName());
         annonceBook.setAd_id(annonce_id);
-        //annonceBook.setCip("ihab0001");
-        //annonceBook.set_annonce_id(69);
 
         annonce_Book_Mapper.deleteAnnonce_Book(annonceBook);
         System.out.println("annonce delete test ok out ++++++++++++++++++");
