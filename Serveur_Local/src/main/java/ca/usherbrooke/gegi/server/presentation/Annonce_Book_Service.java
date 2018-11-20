@@ -30,7 +30,7 @@ public class Annonce_Book_Service {
                            @QueryParam("description") String description, @QueryParam("prix") double prix, @QueryParam("contact") String contact,
                            @QueryParam("auteur") String auteur, @QueryParam("ISBN") String ISBN, @QueryParam("edition") String edition,
                            @QueryParam("titre") String titre, @QueryParam("course_id") String course_id){
-        System.out.println("annonce add ok test 1 int +++++++++++++++++");
+
 
         String cip = httpServletRequest.getUserPrincipal().getName();
         Annonce_book annonceBook = new Annonce_book();

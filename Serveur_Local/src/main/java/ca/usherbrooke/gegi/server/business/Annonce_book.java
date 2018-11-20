@@ -100,8 +100,6 @@ public class Annonce_book  extends  Annonce {
                 ", ISBN='" + ISBN + '\'' +
                 ", edition='" + edition + '\'' +
                 ", titre='" + titre + '\'' +
-                //", price=" + price +
-                //", cours_id='" + cours_id + '\'' +
                 '}';
     }
 }
