@@ -25,11 +25,9 @@ public class Annonce_Service_START {
 
     @GET
     @Produces("application/json")
-    public List<Annonce> get_Annonce(@QueryParam("id") Integer id) {
+    public List<Annonce> get_Annonce(@QueryParam("id") Integer id,@QueryParam("course_id") String course_id) {
 
-        System.out.println(httpServletRequest.getUserPrincipal().getName());
-
-        List<Annonce> annonces = annonce_Mapper.select(id);
+        List<Annonce> annonces = annonce_Mapper.select(id,course_id);
         return annonces;
     }
 

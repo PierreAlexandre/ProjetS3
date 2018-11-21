@@ -11,6 +11,6 @@ import java.util.List;
 @Mapper
 public interface Annonce_Mapper_START {
 
-    List<Annonce> select(@Param("id") Integer id);
+    List<Annonce> select(@Param("id") Integer id,@Param("course_id") String course_id );
 
 }

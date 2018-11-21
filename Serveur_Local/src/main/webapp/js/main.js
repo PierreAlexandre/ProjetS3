@@ -2,9 +2,9 @@ function main()
 {
 
 
-    var formParameter = document.getElementById("formParameter").value;
+    var course_id = document.getElementById("course_id").value;
     var xmlhttp = new XMLHttpRequest();
-    var url = "api/annonce_start?id=1" + formParameter;
+    var url = "api/annonce_start?id=1" + course_id;
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
