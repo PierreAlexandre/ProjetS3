@@ -47,7 +47,6 @@ public class Annonce_Book_Service {
         annonceBook.setTitre(titre);
         annonceBook.set_cours_id(course_id);
 
-        System.out.println("LE CIP EST DE  :::::"+annonceBook.getCip());
 
         annonce_Book_Mapper.insertAnnonce_Book(annonceBook);
 

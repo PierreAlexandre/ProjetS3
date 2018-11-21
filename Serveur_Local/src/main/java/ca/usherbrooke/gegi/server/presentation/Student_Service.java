@@ -26,16 +26,16 @@ public class Student_Service {
 
     @GET
     public void creat_Student(){
-        System.out.println("insert ok test 1");
         Student student = new Student();
-        student.setCip(httpServletRequest.getUserPrincipal().getName());
+        String cip = httpServletRequest.getUserPrincipal().getName();
+        student.setCip(cip);
         student.setUser_name("student11");
-        student.setE_mail("cip11@ush.ca");
+        student.setE_mail(cip+"@usherbrooke.ca");
         student.setPhone("819-000 2222");
 
 
         student_Mapper.insertStudent(student);
-        System.out.println("insert ok test 2");
+
 
 
 
