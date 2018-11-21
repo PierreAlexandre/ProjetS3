@@ -129,7 +129,7 @@ body {
       
   </div>
   <div class="main">
-      <form action="api/annonce/add_annonce">
+      <form target="_blank" action="api/annonce/add_annonce">
       <h2>Détail de l'annonce</h2>
 
       <p><label>Titre de l'annonce:</label></p>
@@ -334,9 +334,9 @@ body {
               <option value= "gif701">gif701</option>
               <option value= "gif801">gif801</option>
           </select>
-          <form action="PageConfirmation.html">
-              <input type="submit" value="Envoyer" />
-          </form>
+              <input onclick="window.location = 'PageConfirmation.html';" type="submit" value="Envoyer" />
+
+
       </form>
 
   </div>
