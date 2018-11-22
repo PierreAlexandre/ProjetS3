@@ -34,7 +34,7 @@ function main()
                 if((reponse[i].includes('_nom_article":"'))&&(reponse[i].includes(',"_prix":')))
                     div.innerHTML += "<h3>" +"Titre de l'article : "+FindPostTag('_nom_article":"',reponse[i]) + "</h3>";
                 if(reponse[i].includes('_contact_annonceurr":"'))
-                    div.innerHTML += "<h3>Publié par : "+ FindPostTag('_contact_annonceurr":"',reponse[i])+"</h3>";
+                    div.innerHTML += "<h3>Contact annonceur : "+ FindPostTag('_contact_annonceurr":"',reponse[i])+"</h3>";
 
                 if(reponse[i].includes('_description":"'))
                     div.innerHTML += "<p>" + FindPostTag('_description":"',reponse[i]) + "</p>";
