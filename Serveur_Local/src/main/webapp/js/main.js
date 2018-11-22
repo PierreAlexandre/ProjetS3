@@ -25,12 +25,14 @@ function main()
                 var div = document.createElement('div');
                 div.className = "Annonce";
                 div.style = "height:180px";
-                div.innerHTML += "<div>\n" +
-                    "<p style=\"float: left;\"><img src=\"http://placekitten.com/g/200/200\" height=\"120px\" width=\"120px\" border=\"1px\"></p>\n";
-                if((reponse[i].includes('_nom_article":"'))&&(reponse[i].includes(',"_prix":')))
-                    div.innerHTML += "<h2>" +FindPostTag('_nom_article":"',reponse[i]) + " - " + FindPostTag(',"_prix":',reponse[i]) + "</h2>";
+
+                div.innerHTML += "<div>\n" + "<p style=\"float: left;\"><img src=\"cap.png\" alt=\"Cap Icon\" height=\"120px\" width=\"120px\" border=\"1px\"></p>\n";
+                if((reponse[i].includes('_titre_annonce":"')))
+                    div.innerHTML += "<h2>" +FindPostTag('_titre_annonce":"',reponse[i])+"</h2>";
                 if(reponse[i].includes('_contact_annonceurr":"'))
                     div.innerHTML += "<h3>Publié par : "+ FindPostTag('_contact_annonceurr":"',reponse[i])+"</h3>";
+                if((reponse[i].includes('_nom_article":"'))&&(reponse[i].includes(',"_prix":')))
+                    div.innerHTML += "<h2>" +FindPostTag('_nom_article":"',reponse[i]) + " - " + FindPostTag(',"_prix":',reponse[i]) + "</h2>";
                 if(reponse[i].includes('_description":"'))
                     div.innerHTML += "<p>" + FindPostTag('_description":"',reponse[i]) + "</p>";
                 mainDiv.appendChild(div);
