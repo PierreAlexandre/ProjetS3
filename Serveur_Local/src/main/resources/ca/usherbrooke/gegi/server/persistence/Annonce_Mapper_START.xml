@@ -6,7 +6,7 @@
 
   <select id="select" resultType="Annonce">
 
-  SELECT
+    SELECT
     annonce_id,
     date_annonce,
     categorie,
@@ -20,7 +20,10 @@
     nom_annonceur,
     contact_annonceur
 
-  FROM v_annonces
+    FROM v_annonces
+
+    WHERE #{course_id} <> ''
+    AND course_id = #{course_id};
 
     </select>
 
