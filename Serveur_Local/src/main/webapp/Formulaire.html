@@ -133,16 +133,16 @@ body {
       <h2>Détail de l'annonce</h2>
 
       <p><label>Titre de l'annonce:</label></p>
-	  <input type="text" name="titre_annonce"></p>
+	  <input type="text" name="titre_annonce" id="input_title"></p>
 
       <p><label>Description:</label></p>
 	  <textarea name="description" cols="40" rows="6"></textarea></p>
 
       <p><label>Prix:</label></p>
-	  <input type="text" name="prix"></p>
+	  <input type="text" name="prix" id="input_price"></p>
 
       <p><label>Pour vous joindre:</label></p>
-	  <input type="text" name="contact"></p>
+	  <input type="text" name="contact" id="input_contact_info"></p>
 
       <p><label>Auteur:</label></p>
       <input type="text" name="auteur"></p>
@@ -336,7 +336,8 @@ body {
           </select>
           <input type="hidden" name="redirect" value="PageConfirmation.html" />
           <p></p>
-              <input onclick="window.location.href = 'PageConfirmation.html';" type="submit" value="Envoyer" />
+              <input  onclick="window.location.href = 'PageConfirmation.html';" type="submit" value="Envoyer" />
+              <input type="button" value="verifier" onclick="inputVerification();" />
       </form>
 
   </div>
@@ -346,6 +347,6 @@ body {
 <div class="footer">
   <h2></h2>
 </div>
-
+<script type="text/javascript" src="js/verifInput.js"> </script>
 </body>
 </html>
